@@ -11,6 +11,7 @@ public class PowerUsingWhile {
         while (counter < pow) {
             result *= n;
             counter++;
+            
         }
         System.out.println(n + "raised to the power" + pow + " is" +result);
     }
